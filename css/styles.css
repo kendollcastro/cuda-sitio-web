@@ -1,0 +1,53 @@
+/*Global*/
+ 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f7f3ea;
+}
+/*#wrapper{
+    width: 1440px;
+    height: 1456px;
+} */
+
+/*Helpers*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/*Header*/
+  #header{
+    width: 1440px;
+    height: 597px;
+    background-color: #87509c;
+}
+
+#logo{
+    padding: 65px 0 0 212px;
+    position: absolute;
+}
+
+#menu{
+    float: right;
+    position: relative;
+}
+
+#menu-list{
+    list-style: none;
+    padding: 60px 243px 0;
+}
+
+#menu-list li{
+    float: left;
+    padding: 15px;
+}
+
+#menu-list a{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f7f3ea;
+}
