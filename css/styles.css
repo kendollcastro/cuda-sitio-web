@@ -54,12 +54,14 @@ body{
 #menu-list a{
     padding: 10px 19px;
     font-size: 16px;
+    border-radius: 4px;
     text-transform: uppercase;
     text-decoration: none;
     color: #f7f3ea;
 }
 #menu-list a:hover{
     background-color: #643a79;
+
 }
 
 #parrafo-header{
@@ -68,12 +70,25 @@ body{
 }
 
 #work-link{
-    align-items: center;
-    padding: 63px 0 0 656px;
-    position: center ;
-    text-decoration: none;
-    color: #f7f3ea;
+    text-align: center;
+    margin-top: 62px;
 }
+
+#work-link a{
+    color: #f7f3ea;
+    background-color: #eb7d4b;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 28px 90px 28px 90px;
+}
+
+
+#work-link a:hover{
+    background-color: #af400d;
+}
+
+
 
 
 /*Services*/
