@@ -52,10 +52,14 @@ body{
 }
 
 #menu-list a{
+    padding: 10px 19px;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
     color: #f7f3ea;
+}
+#menu-list a:hover{
+    background-color: #643a79;
 }
 
 #parrafo-header{
@@ -129,4 +133,29 @@ body{
 
 .text-padding{
     padding: 0 0 28px;
+}
+
+/*Footer*/
+
+#footer{
+    padding: 39px 0 0 251px;
+    width: 1439px;
+    height: 104px;
+
+    background-color: #344b8e;
+}
+
+#footer-list a{
+    font-size: 18px;
+    color: #f7f3ea;
+    text-decoration: none;
+
+}
+#footer-list a:hover{
+    color: #30bae7;
+}
+#footer-list li{
+    float: left;
+    padding-right: 54px;
+    list-style: none;
 }
