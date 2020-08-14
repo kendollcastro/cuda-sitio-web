@@ -110,3 +110,23 @@ body{
 .box-image + .box-image{
     margin-right: 19px;
 }
+
+/*Texto de iconos*/
+
+.box{
+    text-align: center;
+    width: 260px;
+    float: left;
+}
+
+.box + .box{
+    padding: 0 20px;
+}
+
+#texto-iconos{
+    padding: 0 0 0 170px;
+}
+
+.text-padding{
+    padding: 0 0 28px;
+}
