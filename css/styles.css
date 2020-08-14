@@ -91,3 +91,22 @@ body{
     font-size: 18px;
     padding: 0 421px 0 421px;
 }
+
+#iconos{
+    padding: 0 170px 0 170px;
+}
+.box-image{
+    padding: 83px;
+	width: 260px;
+	float: left;
+	/*background-color: red;*/
+}
+
+
+.box-image a, .box-image img{
+	display: block;
+}
+
+.box-image + .box-image{
+    margin-right: 19px;
+}
