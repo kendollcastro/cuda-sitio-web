@@ -51,3 +51,15 @@ body{
     text-decoration: none;
     color: #f7f3ea;
 }
+
+#parrafo-header{
+    font-size: 42.16px;
+    padding: 238px 284px 0 284px;
+}
+
+#work-link{
+    padding: 63px 0 0 656px;
+    position: center ;
+    text-decoration: none;
+    color: #f7f3ea;
+}
